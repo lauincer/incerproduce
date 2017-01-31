@@ -499,11 +499,14 @@ i:hover {
 }
 #carousel-area {
   overflow: hidden;
-  background: #2c3e50;
+  background: white;
 }
 #carousel-area .carousel-inner .carousel-item {
   opacity: 0;
   transition-property: opacity;
+}
+#carousel-area .carousel-inner .carousel-item img {
+  margin: 0 auto;
 }
 #carousel-area .carousel-inner .active {
   opacity: 1;
