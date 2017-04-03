@@ -511,6 +511,11 @@
   }
 }
 
+@media (min-width: 768px) {
+  .footer-widget .address{
+    margin-top: 54px;
+  }
+}
 
 
 /* mobile or only mobile */
@@ -551,4 +556,3 @@
       top: 14%;
     }
 }
-
