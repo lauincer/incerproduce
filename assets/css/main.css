@@ -68,7 +68,7 @@ h4 {
   font-weight: 400;
 }
 p {
-  font-size: 14px;
+  font-size: 16px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
 }
@@ -309,6 +309,10 @@ i:hover {
 .section-subcontent {
   text-align: center;
   padding-bottom: 30px;
+}
+.section-subcontent--max-width {
+  max-width: 700px;
+  margin: 0 auto;
 }
 .small-title {
   font-size: 22px;
@@ -1070,7 +1074,7 @@ ul li > ul > li.active > a {
   margin: 10px 0 20px 0;
 }
 .split .lead {
-  font-size: 14px;
+  font-size: 16px;
 }
 .split .details-list {
   margin-top: 36px;
@@ -2886,6 +2890,11 @@ h2.widget-title {
   height: 80px;
   width: 100%;
 }
+@media (min-width: 768px) {
+  .page-header-area {
+    padding-left: 15px;
+  }
+}
 .page-header-content {
   display: table-cell;
   vertical-align: middle;
@@ -2922,8 +2931,10 @@ h2.widget-title {
   font-size: 50px;
 }
 .contact-title-text p {
-  font-size: 18px;
   margin-top: 15px;
+}
+.contact-info-section p {
+  font-size: 14px;
 }
 .contact-widget {
   margin-bottom: 30px;
@@ -3309,8 +3320,10 @@ ul.contact-info2 i.fa {
     font-size: 18px;
   }
   .section-subcontent {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   #portfolio a.filter {
     font-size: 10px;
@@ -3346,6 +3359,7 @@ ul.contact-info2 i.fa {
   }
   .images {
     text-align: center;
+    margin-bottom: 20px;
   }
   .split h2.title {
     font-size: 16px;
@@ -3534,4 +3548,10 @@ ul.contact-info2 i.fa {
       display: block;
       bottom: 25px;
     }
+}
+
+
+/* CUSTOM */
+.provider-item {
+  margin-bottom: 25px;
 }
