@@ -567,3 +567,8 @@
     height: 500px;
   }
 }
+@media (max-width: 768px) {
+ .nav .nav-item a {
+   width: 100%;
+ }
+}
