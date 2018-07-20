@@ -3569,3 +3569,13 @@ ul.contact-info2 i.fa {
     border-top: 1px solid #eee;
   }
 }
+@media (max-width: 544px) {
+  .history-img--large {
+    display: none;
+  }
+}
+@media (min-width: 544px) {
+  .history-img {
+    margin-bottom: 30px;
+  }
+}
