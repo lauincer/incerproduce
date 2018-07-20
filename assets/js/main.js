@@ -3,7 +3,7 @@
 $(".dropdown").hover(
   function () {
     $(this).addClass('open');
-  }, 
+  },
   function () {
     $(this).removeClass('open');
   }
@@ -130,7 +130,7 @@ $("#image-carousel").owlCarousel({
   items : 4,
   itemsDesktop : [1170,3],
   itemsDesktopSmall : [1170,3]
- 
+
 });
 
 // Slider Carousel
@@ -147,7 +147,7 @@ $("#carousel-image-slider").owlCarousel({
  //About owl carousel Slider
   $(document).ready(function(){
     /*=== About us ====*/
-    $('#carousel-about-us').owlCarousel({   
+    $('#carousel-about-us').owlCarousel({
         navigation: true, // Show next and prev buttons
         navigationText : ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
         slideSpeed: 800,
@@ -218,3 +218,22 @@ $('.skill-shortcode').appear(function() {
     }, 600);
     return false;
   })
+
+
+
+// Show More Button
+jQuery(document).ready(function( $ ) {
+    $('#portfolio-list > div:gt(8)').addClass('gallery-item--hidden');
+
+    $('#showMoreBtn').click(function(event) {
+      $('#portfolio-list > div').removeClass('gallery-item--hidden');
+      $('#showMoreBtn').hide();
+      return false;
+    });
+
+    $('.controls .filter').click(function(event) {
+      $('#portfolio-list > div').removeClass('gallery-item--hidden');
+      $('#showMoreBtn').hide();
+      return false;
+    });
+});
