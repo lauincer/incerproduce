@@ -557,3 +557,13 @@
       top: 14%;
     }
 }
+@media (min-width: 450px) and (max-width: 700px) {
+ #carousel-area .carousel-item {
+    height: 300px;
+  }
+}
+@media (min-width: 701px) and (max-width: 991px) {
+ #carousel-area .carousel-item {
+    height: 500px;
+  }
+}
