@@ -3565,6 +3565,7 @@ ul.contact-info2 i.fa {
   margin-bottom: 20px;
 }
 .text-success {
+  font-size: 1.5em;
   margin-top: 15px;
 }
 @media (max-width: 768px) {
