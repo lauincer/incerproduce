@@ -3564,6 +3564,9 @@ ul.contact-info2 i.fa {
 #showMoreBtn {
   margin-bottom: 20px;
 }
+.text-success {
+  margin-top: 15px;
+}
 @media (max-width: 768px) {
   .nav .nav-item {
     border-top: 1px solid #eee;

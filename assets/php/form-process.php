@@ -33,20 +33,18 @@ if (empty($_POST["message"])) {
 
 
 $EmailTo = "lauincer@gmail.com";
-$Subject = "New Message Received";
+$Subject = "Mensaje nuevo de incerproduce.com";
 
 // prepare email body text
 $Body = "";
-$Body .= "Name: ";
+$Body .= "Nombre: ";
 $Body .= $name;
 $Body .= "\n";
 $Body .= "Email: ";
 $Body .= $email;
+$Body .= "\n\n";
+$Body .= "Mensaje: ";
 $Body .= "\n";
-$Body .= "Subject: ";
-$Body .= $msg_subject;
-$Body .= "\n";
-$Body .= "Message: ";
 $Body .= $message;
 $Body .= "\n";
 
