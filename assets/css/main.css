@@ -664,9 +664,12 @@ i:hover {
   margin: 10px 20px;
 }
 .navbar-brand {
-  width: 130px;
+  width: 150px;
   padding-top: 0.8rem;
   height: auto;
+}
+.navbar-brand>img {
+  width: 100%;
 }
 .navbar-engage {
   border: none;
