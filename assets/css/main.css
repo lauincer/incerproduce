@@ -2611,8 +2611,12 @@ span.published-time i.fa {
   font-size: 26px;
   font-weight: 600;
   line-height: 26px;
-  text-transform: capitalize;
   margin-bottom: 20px;
+}
+@media (min-width: 991px) {
+  .blog-post-content h2.blog-post-title br {
+      display: none;
+  }
 }
 .blog-post-footer {
   padding: 20px;
@@ -3329,8 +3333,8 @@ ul.contact-info2 i.fa {
     font-size: 18px;
   }
   .section-subcontent {
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 15px;
+    line-height: 20px;
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -3570,6 +3574,15 @@ ul.contact-info2 i.fa {
 .text-success {
   font-size: 1.5em;
   margin-top: 15px;
+}
+.provider-logo {
+  margin-top: 20px;
+}
+.product-list ul {
+  margin-bottom: 0;
+}
+.product-list .featured-box {
+  margin: 0;
 }
 @media (max-width: 768px) {
   .nav .nav-item {
