@@ -1249,7 +1249,7 @@ ul li > ul > li.active > a {
 }
 .sup-desc-wrap .sup-meta-wrap .sup-description {
   font-size: 13px;
-  line-height: 18px;
+  line-height: 13px;
   color: #666;
   text-align: center;
   -webkit-transform: translateY(40px);
